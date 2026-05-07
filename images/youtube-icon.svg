@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="ytTitle">
+    <title id="ytTitle">YouTube icon</title>
+    <rect x="8" y="16" width="48" height="32" rx="8" fill="#c4302b"/>
+    <path d="M28 24l14 8-14 8z" fill="#ffffff"/>
+</svg>

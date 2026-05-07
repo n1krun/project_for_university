@@ -1,0 +1,25 @@
+Deadlock Learning Hub Reflection
+
+Site map:
+- index.html: Home page with hero, intro, gradient, and text-shadow.
+- about.html: Project background with article, sections, figure, and figcaption.
+- gallery.html: Lesson/content page with a three-column float layout.
+- media.html: HTML5 video with MP4 and WebM sources, plus audio notes.
+- data.html: Resource table with caption, thead, tbody, and tfoot.
+- contact.html: Quiz/contact form with JavaScript interaction and social links.
+
+Wireframes:
+- Mobile: header, stacked navigation, single-column main content, footer.
+- Tablet: horizontal navigation, wider content, two-column home intro.
+- Desktop: centered container, larger hero, three lesson columns on the lessons page.
+
+Asset notes:
+- Some JPG, PNG, and SVG images were generated locally for this student project.
+- Deadlock Steam images were referenced from Steam/SteamDB asset listings and are used for educational fan-site context.
+- MP4, WebM, and MP3 media files are free test files from TrueFileSize.com.
+- Deadlock belongs to Valve. This is a fan-made educational project.
+
+Validation notes:
+- Every page uses HTML5 doctype, charset, viewport, description, keywords, and author meta tags.
+- CSS is stored only in css/styles.css.
+- JavaScript is stored only in js/scripts.js.

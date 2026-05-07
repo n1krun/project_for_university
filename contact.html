@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deadlock quiz and contact form for checking basic knowledge and sending feedback.">
+    <meta name="keywords" content="Deadlock quiz, contact form, HTML form, student project">
+    <meta name="author" content="University Student">
+    <title>Deadlock Learning Hub | Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a class="skip-link" href="#content">Skip to content</a>
+            <img class="logo" src="images/deadlock-wordmark.png" alt="Deadlock wordmark">
+            <div>
+                <h1>Deadlock Learning Hub</h1>
+                <p>Educational resource for new and improving players</p>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Lessons</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="data.html">Resources</a></li>
+                <li><a href="contact.html">Quiz</a></li>
+            </ul>
+        </nav>
+
+        <main id="content">
+            <section class="page-section">
+                <h2>Deadlock Knowledge Check</h2>
+                <p>Review the basics: lane focus, item timing, and team fight decisions.</p>
+
+                <form id="quizForm" action="#" method="post">
+                    <section class="form-panel">
+                        <h3>Player Info</h3>
+
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="date">Study Date</label>
+                        <input type="date" id="date" name="date">
+
+                        <label for="confidence">Confidence Level</label>
+                        <input type="range" id="confidence" name="confidence" min="1" max="10">
+
+                        <label for="topic">Most Important Topic</label>
+                        <select id="topic" name="topic">
+                            <option value="lanes">Lane control</option>
+                            <option value="items">Item builds</option>
+                            <option value="movement">Movement</option>
+                            <option value="teamplay">Team play</option>
+                        </select>
+                    </section>
+
+                    <section class="form-panel quiz-panel">
+                        <h3>Knowledge Check</h3>
+
+                        <fieldset class="quiz-card">
+                            <legend>Question 1</legend>
+                            <p>What should a beginner usually focus on during the early lane?</p>
+                            <div class="answer-list">
+                                <div class="answer-option">
+                                    <input type="radio" id="q1-souls" name="q1" value="souls" required>
+                                    <label for="q1-souls">Collecting souls safely</label>
+                                </div>
+                                <div class="answer-option">
+                                    <input type="radio" id="q1-chase" name="q1" value="chase">
+                                    <label for="q1-chase">Chasing every enemy into open space</label>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="quiz-card">
+                            <legend>Question 2</legend>
+                            <p>When should you usually buy items?</p>
+                            <div class="answer-list">
+                                <div class="answer-option">
+                                    <input type="radio" id="q2-random" name="q2" value="random" required>
+                                    <label for="q2-random">Only when you randomly walk past the shop</label>
+                                </div>
+                                <div class="answer-option">
+                                    <input type="radio" id="q2-timing" name="q2" value="timing">
+                                    <label for="q2-timing">After building enough souls and finding a safe timing</label>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="quiz-card">
+                            <legend>Question 3</legend>
+                            <p>What is a safer way to start a team fight?</p>
+                            <div class="answer-list">
+                                <div class="answer-option">
+                                    <input type="radio" id="q3-alone" name="q3" value="alone" required>
+                                    <label for="q3-alone">Dive alone before your team arrives</label>
+                                </div>
+                                <div class="answer-option">
+                                    <input type="radio" id="q3-team" name="q3" value="team">
+                                    <label for="q3-team">Fight with teammates and use cover before committing</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </section>
+
+                    <section class="form-panel">
+                        <h3>Feedback</h3>
+
+                        <div class="check-row">
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                            <label for="subscribe" class="checkbox-label">Send me more study notes</label>
+                        </div>
+
+                        <label for="message">What lesson should be added next?</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+
+                        <div class="form-actions">
+                            <input type="submit" value="Submit Quiz">
+                            <button type="button" onclick="showHint()">Show Hint</button>
+                        </div>
+                    </section>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Deadlock Learning Hub. Fan-made educational website.</p>
+            <p><a href="mailto:student@example.com">student@example.com</a> |
+                <a href="https://www.playdeadlock.com/" target="_blank" rel="noopener">Official Deadlock Website</a></p>
+            <div class="social">
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+                    <img src="images/youtube-icon.svg" alt="YouTube icon">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                    <img src="images/instagram-icon.svg" alt="Instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

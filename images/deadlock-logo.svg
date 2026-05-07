@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+    <title id="title">Deadlock Learning Hub logo</title>
+    <desc id="desc">A simple educational shield icon inspired by a game guide.</desc>
+    <rect width="180" height="180" rx="18" fill="#1f2933"/>
+    <path d="M90 24l48 18v42c0 34-19 58-48 72-29-14-48-38-48-72V42z" fill="#d6b25e"/>
+    <path d="M58 74h64v14H58zm0 28h64v14H58z" fill="#1f2933"/>
+    <circle cx="90" cy="53" r="12" fill="#1f2933"/>
+</svg>

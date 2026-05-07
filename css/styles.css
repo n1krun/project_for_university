@@ -1,0 +1,445 @@
+/* Base */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0f1518;
+    color: #d8d1bf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    background: #161d20;
+    border-left: 1px solid #3b3428;
+    border-right: 1px solid #3b3428;
+}
+
+img,
+video,
+audio {
+    max-width: 100%;
+}
+
+a {
+    color: #d6b25e;
+}
+
+a:visited {
+    color: #9fb8b1;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.skip-link {
+    position: absolute;
+    left: -999px;
+}
+
+.skip-link:focus {
+    left: 1em;
+    top: 1em;
+    background: #ffffff;
+    padding: 0.5em;
+}
+
+/* Header and Nav */
+header {
+    overflow: auto;
+    padding: 1em 4%;
+    color: #f4ead2;
+    background: linear-gradient(135deg, #101416, #26352f 55%, #6f5428);
+    border-bottom: 2px solid #d6b25e;
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    max-height: 70px;
+    object-fit: contain;
+    margin-right: 1em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.7em;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+header p {
+    margin: 0.2em 0 0;
+}
+
+nav {
+    background: #201f1a;
+    border-bottom: 1px solid #5c4927;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    border-bottom: 1px solid #3b3428;
+}
+
+nav a {
+    display: block;
+    padding: 0.8em 4%;
+    color: #d6b25e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #d6b25e;
+}
+
+nav a:hover {
+    background: #4c3a1e;
+    color: #ffffff;
+}
+
+/* Main */
+main {
+    padding: 1em 4%;
+}
+
+h2 {
+    color: #f0d28a;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #96b7aa;
+    font-size: 1.2em;
+}
+
+.hero {
+    padding: 2em 1em;
+    border: 1px solid #6f5428;
+    background: linear-gradient(rgba(10, 14, 15, 0.28), rgba(10, 14, 15, 0.82)), url("../images/deadlock-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #f4ead2;
+}
+
+.hero h2 {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 2em;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.button,
+input[type="submit"],
+button {
+    display: inline-block;
+    margin-top: 0.8em;
+    padding: 0.7em 1em;
+    border: 1px solid #d6b25e;
+    background: #4c3a1e;
+    color: #f4ead2;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.intro,
+.page-section {
+    overflow: auto;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #3b3428;
+    background: #1d2528;
+}
+
+.intro aside {
+    padding: 1em;
+    border: 1px solid #d6b25e;
+    background: #24251f;
+    opacity: 0.95;
+}
+
+figure {
+    margin: 1em 0;
+}
+
+figcaption {
+    padding: 0.5em 0;
+    font-size: 0.95em;
+}
+
+.lesson-grid {
+    overflow: auto;
+}
+
+.lesson-card {
+    margin: 0 0 1em;
+    padding: 0.8em;
+    border: 1px solid #5c4927;
+    background: #151b1d;
+}
+
+.lesson-card img,
+.page-section figure img {
+    border: 1px solid #5c4927;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 0.7em;
+    font-weight: bold;
+}
+
+thead {
+    display: none;
+}
+
+tr,
+td,
+th {
+    border: 1px solid #4d5654;
+}
+
+tbody tr {
+    display: block;
+    margin-bottom: 1em;
+}
+
+td {
+    display: block;
+    padding: 0.7em;
+}
+
+td::before {
+    content: attr(data-label) ": ";
+    font-weight: bold;
+}
+
+tfoot td {
+    background: #24251f;
+    font-weight: bold;
+}
+
+tfoot td::before {
+    content: "";
+}
+
+/* Form */
+form {
+    max-width: 720px;
+}
+
+.form-panel {
+    margin-top: 1em;
+    padding: 1em;
+    border: 1px solid #5c4927;
+    background: #141a1c;
+}
+
+.form-panel h3 {
+    margin-top: 0;
+}
+
+label,
+legend {
+    display: block;
+    margin-top: 0.8em;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.7em;
+    border: 1px solid #5c4927;
+    background: #101416;
+    color: #f4ead2;
+    font: inherit;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+fieldset {
+    margin-top: 1em;
+    border: 1px solid #5c4927;
+}
+
+.quiz-panel {
+    background: #171f21;
+}
+
+.quiz-card {
+    padding: 1em;
+    background: #101416;
+}
+
+.quiz-card legend {
+    padding: 0 0.4em;
+    color: #f0d28a;
+}
+
+.quiz-card p {
+    margin: 0.4em 0 0.8em;
+}
+
+.answer-list {
+    overflow: auto;
+}
+
+.answer-option {
+    margin: 0.55em 0;
+    padding: 0.65em;
+    border: 1px solid #3b3428;
+    background: #1d2528;
+}
+
+.answer-option:hover {
+    border-color: #d6b25e;
+}
+
+.answer-option input {
+    float: left;
+    margin: 0.25em 0.6em 0 0;
+}
+
+.answer-option label {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    font-weight: normal;
+}
+
+.check-row {
+    overflow: auto;
+    margin-top: 0.5em;
+}
+
+.check-row input {
+    float: left;
+    margin: 0.35em 0.6em 0 0;
+}
+
+.checkbox-label {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    font-weight: normal;
+}
+
+.form-actions {
+    margin-top: 0.4em;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    padding: 1em 4%;
+    background: #101416;
+    color: #d8d1bf;
+    text-align: center;
+    border-top: 2px solid #d6b25e;
+}
+
+footer a {
+    color: #f4d27f;
+}
+
+.social img {
+    width: 36px;
+    height: 36px;
+    margin: 0.4em;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    nav {
+        overflow: auto;
+    }
+
+    nav li {
+        float: left;
+        width: 16.66%;
+        border-bottom: 0;
+        text-align: center;
+    }
+
+    nav a {
+        padding: 1em 0.3em;
+    }
+
+    .intro article {
+        float: left;
+        width: 62%;
+    }
+
+    .intro aside {
+        float: right;
+        width: 34%;
+    }
+
+    .lesson-card {
+        float: left;
+        width: 31.33%;
+        margin-right: 3%;
+    }
+
+    .lesson-card:nth-child(3) {
+        margin-right: 0;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tbody tr {
+        display: table-row;
+        margin-bottom: 0;
+    }
+
+    td,
+    th {
+        display: table-cell;
+        padding: 0.7em;
+        text-align: left;
+    }
+
+    td::before {
+        content: "";
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    #container {
+        max-width: 1100px;
+    }
+
+    main {
+        padding: 1.5em 3%;
+    }
+
+    .hero {
+        min-height: 320px;
+        padding: 4em 2em;
+    }
+}
