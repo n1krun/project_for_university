@@ -27,3 +27,7 @@ Validation notes:
 - Every page uses HTML5 doctype, charset, viewport, description, keywords, and author meta tags.
 - CSS is stored only in css/styles.css.
 - JavaScript is stored only in js/scripts.js.
+
+Project links:
+- GitHub Repository: https://github.com/n1krun/project_for_university
+- GitHub Pages: https://n1krun.github.io/project_for_university/
