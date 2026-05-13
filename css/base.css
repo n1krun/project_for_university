@@ -1,0 +1,68 @@
+/* Base */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0f1518;
+    color: #d8d1bf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    background: #161d20;
+    border-left: 1px solid #3b3428;
+    border-right: 1px solid #3b3428;
+}
+
+img,
+video,
+audio {
+    max-width: 100%;
+}
+
+.video-embed {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 1px solid #5c4927;
+}
+
+.podcast-embed {
+    width: 100%;
+    height: 450px;
+    border: 1px solid #5c4927;
+}
+
+.html5-media {
+    width: 100%;
+    border: 1px solid #5c4927;
+}
+
+a {
+    color: #d6b25e;
+}
+
+a:visited {
+    color: #9fb8b1;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.skip-link {
+    position: absolute;
+    left: -999px;
+}
+
+.skip-link:focus {
+    left: 1em;
+    top: 1em;
+    background: #ffffff;
+    padding: 0.5em;
+}

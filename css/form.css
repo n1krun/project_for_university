@@ -1,0 +1,109 @@
+/* Form */
+form {
+    max-width: 720px;
+}
+
+.form-panel {
+    margin-top: 1em;
+    padding: 1em;
+    border: 1px solid #5c4927;
+    background: #141a1c;
+}
+
+.form-panel h3 {
+    margin-top: 0;
+}
+
+label,
+legend {
+    display: block;
+    margin-top: 0.8em;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.7em;
+    border: 1px solid #5c4927;
+    background: #101416;
+    color: #f4ead2;
+    font: inherit;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+fieldset {
+    margin-top: 1em;
+    border: 1px solid #5c4927;
+}
+
+.quiz-panel {
+    background: #171f21;
+}
+
+.quiz-card {
+    padding: 1em;
+    background: #101416;
+}
+
+.quiz-card legend {
+    padding: 0 0.4em;
+    color: #f0d28a;
+}
+
+.quiz-card p {
+    margin: 0.4em 0 0.8em;
+}
+
+.answer-list {
+    overflow: auto;
+}
+
+.answer-option {
+    margin: 0.55em 0;
+    padding: 0.65em;
+    border: 1px solid #3b3428;
+    background: #1d2528;
+}
+
+.answer-option:hover {
+    border-color: #d6b25e;
+}
+
+.answer-option input {
+    float: left;
+    margin: 0.25em 0.6em 0 0;
+}
+
+.answer-option label {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    font-weight: normal;
+}
+
+.check-row {
+    overflow: auto;
+    margin-top: 0.5em;
+}
+
+.check-row input {
+    float: left;
+    margin: 0.35em 0.6em 0 0;
+}
+
+.checkbox-label {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    font-weight: normal;
+}
+
+.form-actions {
+    margin-top: 0.4em;
+}

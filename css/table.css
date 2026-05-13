@@ -1,0 +1,44 @@
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 0.7em;
+    font-weight: bold;
+}
+
+thead {
+    display: none;
+}
+
+tr,
+td,
+th {
+    border: 1px solid #4d5654;
+}
+
+tbody tr {
+    display: block;
+    margin-bottom: 1em;
+}
+
+td {
+    display: block;
+    padding: 0.7em;
+}
+
+td::before {
+    content: attr(data-label) ": ";
+    font-weight: bold;
+}
+
+tfoot td {
+    background: #24251f;
+    font-weight: bold;
+}
+
+tfoot td::before {
+    content: "";
+}

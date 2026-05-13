@@ -1,0 +1,19 @@
+/* Footer */
+footer {
+    clear: both;
+    padding: 1em 4%;
+    background: #101416;
+    color: #d8d1bf;
+    text-align: center;
+    border-top: 2px solid #d6b25e;
+}
+
+footer a {
+    color: #f4d27f;
+}
+
+.social img {
+    width: 36px;
+    height: 36px;
+    margin: 0.4em;
+}

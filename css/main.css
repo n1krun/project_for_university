@@ -1,0 +1,85 @@
+/* Main */
+main {
+    padding: 1em 4%;
+}
+
+h2 {
+    color: #f0d28a;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: #96b7aa;
+    font-size: 1.2em;
+}
+
+.hero {
+    padding: 2em 1em;
+    border: 1px solid #6f5428;
+    background: linear-gradient(rgba(10, 14, 15, 0.28), rgba(10, 14, 15, 0.82)), url("../images/deadlock-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #f4ead2;
+}
+
+.hero h2 {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 2em;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.button,
+input[type="submit"],
+button {
+    display: inline-block;
+    margin-top: 0.8em;
+    padding: 0.7em 1em;
+    border: 1px solid #d6b25e;
+    background: #4c3a1e;
+    color: #f4ead2;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.intro,
+.page-section {
+    overflow: auto;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #3b3428;
+    background: #1d2528;
+}
+
+.intro aside {
+    padding: 1em;
+    border: 1px solid #d6b25e;
+    background: #24251f;
+    opacity: 0.95;
+}
+
+figure {
+    margin: 1em 0;
+}
+
+figcaption {
+    padding: 0.5em 0;
+    font-size: 0.95em;
+}
+
+.lesson-grid {
+    overflow: auto;
+}
+
+.lesson-card {
+    margin: 0 0 1em;
+    padding: 0.8em;
+    border: 1px solid #5c4927;
+    background: #151b1d;
+}
+
+.lesson-card img,
+.page-section figure img {
+    border: 1px solid #5c4927;
+}

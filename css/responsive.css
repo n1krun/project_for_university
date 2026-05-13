@@ -1,0 +1,73 @@
+/* Tablet */
+@media (min-width: 768px) {
+    nav {
+        overflow: auto;
+    }
+
+    nav li {
+        float: left;
+        width: 16.66%;
+        border-bottom: 0;
+        text-align: center;
+    }
+
+    nav a {
+        padding: 1em 0.3em;
+    }
+
+    .intro article {
+        float: left;
+        width: 62%;
+    }
+
+    .intro aside {
+        float: right;
+        width: 34%;
+    }
+
+    .lesson-card {
+        float: left;
+        width: 31.33%;
+        margin-right: 3%;
+    }
+
+    .lesson-card:nth-child(3) {
+        margin-right: 0;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tbody tr {
+        display: table-row;
+        margin-bottom: 0;
+    }
+
+    td,
+    th {
+        display: table-cell;
+        padding: 0.7em;
+        text-align: left;
+    }
+
+    td::before {
+        content: "";
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    #container {
+        max-width: 1100px;
+    }
+
+    main {
+        padding: 1.5em 3%;
+    }
+
+    .hero {
+        min-height: 320px;
+        padding: 4em 2em;
+    }
+}
