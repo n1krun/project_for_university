@@ -4,7 +4,7 @@ Site map:
 - index.html: Home page with hero, intro, gradient, and text-shadow.
 - about.html: Project background with article, sections, figure, and figcaption.
 - gallery.html: Lesson/content page with a three-column float layout.
-- media.html: YouTube guide embed, HTML5 video with MP4 and WebM sources, plus a voice podcast embed.
+- media.html: YouTube guide embed, project-made HTML5 audio study notes, plus a voice podcast embed.
 - data.html: Resource table with caption, thead, tbody, and tfoot.
 - contact.html: Quiz/contact form with JavaScript interaction and social links.
 
@@ -18,9 +18,9 @@ Asset notes:
 - Deadlock Steam images were referenced from Steam/SteamDB asset listings and are used for educational fan-site context.
 - The item shop screenshot was referenced from a BLAST Deadlock beginner items article.
 - The YouTube video guide is from The Complete Deadlock Beginner Guide.
+- The local audio study notes were generated for this project using short original Deadlock learning tips.
 - The voice podcast embed is from The Bear Pit - Deadlock on Apple Podcasts.
 - Resource links include the official Deadlock website, Mobalytics, The Deadlock Wiki, Apple Podcasts, and Deadlock Night Shift.
-- MP4, WebM, and MP3 media files are free test files from TrueFileSize.com.
 - Deadlock belongs to Valve. This is a fan-made educational project.
 
 Validation notes:
