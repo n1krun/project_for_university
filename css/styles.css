@@ -38,6 +38,11 @@ audio {
     border: 1px solid #5c4927;
 }
 
+.html5-media {
+    width: 100%;
+    border: 1px solid #5c4927;
+}
+
 a {
     color: #d6b25e;
 }

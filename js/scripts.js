@@ -1,8 +1,11 @@
-function showHint() {
-    alert("Hint: strong early lane play means safe soul collection and smart positioning.");
-}
-
 var quizForm = document.getElementById("quizForm");
+var hintButton = document.getElementById("hintButton");
+
+if (hintButton) {
+    hintButton.addEventListener("click", function () {
+        alert("Hint: strong early lane play means safe soul collection and smart positioning.");
+    });
+}
 
 if (quizForm) {
     quizForm.addEventListener("submit", function (event) {
